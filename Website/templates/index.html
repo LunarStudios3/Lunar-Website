@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <title>LunarStudios</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="{% static 'Website/lunar.css' %}">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- AnimateCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Lettering -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js">
+    <!-- WOW; allows for animation to occur the moment you scroll to element -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Khula|Nothing+You+Could+Do|Rajdhani|Shadows+Into+Light+Two|Teko" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#myPage">
+      <img  style= "margin-left: -60px;margin-top:-25px" src="http://i.imgur.com/9ozlSV2.png?1">
+    </a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="margin-top: 15px; float: right; background-color: rgba(0,0,0,0);">
+        <li style="background-color: rgba(0,0,0,0);"><a href="#about">About</a></li>
+        <li style="background-color: rgba(0,0,0,0);"><a href="#pricing">Specialties</a></li>
+        <li style="background-color: rgba(0,0,0,0);"><a href="#portfolio">Portfolio</a></li>
+        <li style="background-color: rgba(0,0,0,0);"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" style="background-color: rgba(0,0,0,0.8)">
+
+  <div class="stars"></div>
+  <div class="twinkling">
+    <h1 class="animated fadeInDown" style="color: white; margin-top: 150px;">Lunar Studios</h1></div>
+  <div class="moon" style="z-index: 9999;"></div>
+
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container">
+  <h1 class="headz"> </br></br> About Us</h1>
+  <div class="row">
+    <div class="col-md-12">
+        <p class="aboutText"></br> </br> Lunar Studios is a group of freelance web developers. We specialize in the conception, creation and deployment of high quality websites,
+        specially made to fit your needs. Each of our members has a special skillset which makes them extremely valuable and marketable. We believe that all Websites
+        should be beautifly aesthetic yet efficient. We are a flexible group that can work in almost any environment. Our team consists of both front end and back end
+        developers that are ready to make you and your website look elegant. </p>
+    </div>
+    <div class="col-md-12">
+
+    </div>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container">
+  <div>
+    <h1 class="headz"></br></br>Specialties</h1>
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-sm-6 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Eddie Taliaferro II</h1>
+        </div>
+        <div class="panel-body">
+          <p> Front-End Development</p>
+          <p> HTML5,CSS3, Javascript </p>
+          <p> Went to OCC and CMU for Computer Science.</p>
+        </div>
+        <div class="panel-footer">
+          <img class="animated zoomIn wow"src="{% static 'Website/eddie.png' %}">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Jonathan Mukes</h1>
+        </div>
+        <div class="panel-body">
+          <p> Back-End Development</p>
+          <p> Specializes in Java, C, and Python.</p>
+          <p> Currently goes to OU for Computer Science</p>
+        </div>
+        <div class="panel-footer">
+          <img class="animated zoomIn wow"src="{% static 'Website/jon.png' %}">
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <div class="row slideanim">
+
+      <div class="col-sm-6 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Vanessa Mukes</h1>
+          </div>
+          <div class="panel-body">
+            <p> Front-End Development</p>
+            <p> Specializes in HTML5, Bootstrap, and PHP.</p>
+            <p> Went to school for HTML5.
+          </div>
+          <div class="panel-footer">
+            <img class="animated zoomIn wow"src="{% static 'Website/vanessa.png' %}">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Joe Brown</h1>
+          </div>
+          <div class="panel-body">
+            <p> Back-End Development</p>
+            <p> Specializes in Java, C++, Spring MVC, WT.</p>
+            <p> Currently goes to Wayne State for Computer Science</p>
+          </div>
+          <div class="panel-footer">
+            <img class="animated zoomIn wow"src="{% static 'Website/joe.png' %}">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Container (Services Section) -->
+
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container">
+  <h1 class="headz"></br></br>Portfolio</h1><br>
+  <h4>Finished Products</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="Paris" width="200" height="200">
+
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="New York" width="200" height="200">
+      </div>
+    </div>
+    </div>
+
+    <div class="row text-center slideanim">
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="Paris" width="200" height="200">
+
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="New York" width="200" height="200">
+        </div>
+      </div>
+    </div>
+
+
+  </div><br>
+
+
+</div>
+<div id="contact" class="container-fluid">
+    <h1 class="headz" style="color: white; margin-top:-5px;"></br>Contact Us</h1>
+          <p>Email: lunarstudios3@gmail.com</p>
+          <p>Phone: (313) 587-0402 </p>
+  {% block content %}
+  <form role="form" action="" method="post" style="color:grey; text-align: left; float: right;padding: 25px;">
+ {% csrf_token %}
+ {{ form.Name }} <br><br>
+ {{ form.from_email }} <br><br>
+ {{ form.subject }}     <br><br>
+ {{ form.message }}    <br><br>
+  <button type="submit" style="float: right">Submit</button> </form>
+<p>{{ form.fieldname.errors.as_text }}</p>
+  {% endblock %}
+  <div class="row">
+    <div class="col-md-12"  style="text-align: center;">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 60px;
+        text-align: bottom;
+        text-decoration: none;
+        margin: 9px 6px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -68px;
+      }
+
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+      </style>
+
+      <!-- Add font awesome icons -->
+      <a href="http://www.facebook.com/Lunar-Studios-438795643168979/" class="fa fa-facebook"></a>
+      <a href="http://www.twitter.com/lunarstudios3" class="fa fa-twitter"></a>
+      <a href="http://www.linkedin.com/in/lunar-studios-36aa87143" class="fa fa-linkedin"></a>
+      <a href="http://www.instagram.com/lunarstudios3/" class="fa fa-instagram"></a>
+      <a href="http://imgur.com/3ZKcLRI" class="fa fa-snapchat-ghost"></a>
+
+
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+</body>
+</html>
